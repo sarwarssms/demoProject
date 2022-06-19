@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-18T01:39:44 EDT" name="TestSuite" finished-at="2022-06-18T01:40:15 EDT" duration-ms="30274">
+    <groups>
+    </groups>
+    <test started-at="2022-06-18T01:39:44 EDT" name="Chrome Test" finished-at="2022-06-18T01:40:15 EDT" duration-ms="30274">
+      <class name="Tests.FormTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.FormTest@4de5031f]" started-at="2022-06-18T01:39:58 EDT" name="setup" finished-at="2022-06-18T01:40:03 EDT" duration-ms="5687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ElementPage()[pri:1, instance:Tests.FormTest@4de5031f]" started-at="2022-06-18T01:40:03 EDT" name="ElementPage" finished-at="2022-06-18T01:40:14 EDT" duration-ms="10347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.FormTest@4de5031f]" started-at="2022-06-18T01:40:14 EDT" name="tearDown" finished-at="2022-06-18T01:40:14 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ElementPage status=SUCCESS method=FormTest.ElementPage()[pri:1, instance:Tests.FormTest@4de5031f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.FormTest@4de5031f]" started-at="2022-06-18T01:40:14 EDT" name="afterClass" finished-at="2022-06-18T01:40:15 EDT" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.FormTest -->
+      <class name="Tests.ElementPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.ElementPageTest@52aa2946]" started-at="2022-06-18T01:39:44 EDT" name="setup" finished-at="2022-06-18T01:39:51 EDT" duration-ms="6864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ElementPage()[pri:1, instance:Tests.ElementPageTest@52aa2946]" started-at="2022-06-18T01:39:51 EDT" name="ElementPage" finished-at="2022-06-18T01:39:57 EDT" duration-ms="5223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.ElementPageTest@52aa2946]" started-at="2022-06-18T01:39:57 EDT" name="tearDown" finished-at="2022-06-18T01:39:57 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ElementPage status=SUCCESS method=ElementPageTest.ElementPage()[pri:1, instance:Tests.ElementPageTest@52aa2946] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.ElementPageTest@52aa2946]" started-at="2022-06-18T01:39:57 EDT" name="afterClass" finished-at="2022-06-18T01:39:58 EDT" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.ElementPageTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -1,0 +1,6 @@
+Utilities\TestSuiteBaseTemplete.class
+PageObjects\FormsPage.class
+Utilities\TestSuiteBase.class
+PageObjects\HomePage.class
+Tests\ElementPageTest.class
+Tests\FormTest.class
